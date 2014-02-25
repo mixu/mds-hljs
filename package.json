@@ -1,0 +1,19 @@
+{
+  "name": "mds-hljs",
+  "version": "0.0.0",
+  "description": "highlight.js support for markdown-styles / generate-md",
+  "main": "index.js",
+  "author": "Mikito Takada <mikito.takada@gmail.com> (http://mixu.net/)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixu/mds-hljs.git"
+  },
+  "keywords": [
+    "generate-md",
+    "markdown-styles"
+  ],
+  "license": "BSD",
+  "dependencies": {
+    "highlight.js": "~8.0.0"
+  }
+}
