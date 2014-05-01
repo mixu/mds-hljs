@@ -1,6 +1,6 @@
 var fs = require('fs'),
-    hljs = require('highlight');
-/* Map input code 'name' to their highlight counterparts */
+    hljs = require('highlight.js');
+/* Map input code 'name' to their highlight.js counterparts */
 var languageMap = {
 	'bash': 'bash',
 	'fix': 'fix',
