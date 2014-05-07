@@ -79,7 +79,7 @@ module.exports = function(code, lang) {
 
 	// use the specified language syntax highlighted if it's present
 	if( lang!=undefined && languageMap[lang]){
-		highlighted = hljs.highlight(lang,code).value;
+		highlighted = hljs.highlight(languageMap[lang],code).value;
 	}
 	else{
 		highlighted = hljs.highlightAuto(code).value;
